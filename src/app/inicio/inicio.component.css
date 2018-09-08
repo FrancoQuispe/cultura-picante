@@ -1,0 +1,17 @@
+.d-block{
+    height: 574px;
+}
+
+.row{
+    padding-top: 20px;
+}
+
+.barra{
+    padding-top: 20px;
+}
+
+@media screen and (max-width: 450px){
+    .d-block{
+        height: 200px;
+    }
+}
