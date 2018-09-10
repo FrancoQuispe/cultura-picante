@@ -1,0 +1,44 @@
+.container-fluid{
+    background: #D3D3D3;
+    padding-bottom: 10px;
+}
+
+.row{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.row-derechos{
+    padding-bottom: 0px;
+    text-align: center;
+}
+
+a{
+    color: #000;
+}
+
+.titulo{
+    font-weight: bold;
+    font-size: 12px;
+}
+.menu{
+    font-size: 12px;
+}
+.creditos{
+    font-size: 11px;
+}
+
+.txt{
+    font-size: 11px;
+    padding-left: 15px;
+}
+
+@media screen and (max-width: 450px){
+    .foot{
+        text-align: center;
+    }
+    .row{
+        padding-bottom: 0px;
+        padding-top: 0px;
+    }
+}

@@ -7,6 +7,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { ViajesComponent } from './viajes/viajes.component';
 import { InicioComponent } from './inicio/inicio.component';
 import { MusicaComponent } from './musica/musica.component';
+import { CreditosComponent } from './creditos/creditos.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { MusicaComponent } from './musica/musica.component';
     NavbarComponent,
     ViajesComponent,
     InicioComponent,
-    MusicaComponent
+    MusicaComponent,
+    CreditosComponent
   ],
   imports: [
     AppRoutingModule,

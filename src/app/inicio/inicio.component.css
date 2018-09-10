@@ -3,15 +3,101 @@
 }
 
 .row{
-    padding-top: 20px;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 .barra{
     padding-top: 20px;
 }
 
+.redes{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.fb{
+    position: absolute;
+    top: 66%;
+    left: 31%;
+}
+.it{
+    position: absolute;
+    top: 66%;
+    left: 46%;
+}
+.yt{
+    position: absolute;
+    top: 66%;
+    left: 62%;
+}
+.barra-monumentos{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.monumentos{
+    font-size: 20px;
+    position: absolute;
+    top: 26%;
+    left: 14%;
+}
+
+.musica{
+    font-size: 20px;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+}
+
+.link-black{
+    color: black;
+}
+
+.link-white{
+    color:white;
+}
+
+.corso{
+    font-size: 20px;
+    position: absolute;
+    top: 92%;
+    left: 51%;
+}
+
+.pasacalle{
+    font-size: 20px;
+    position: absolute;
+    top: 92%;
+    left: 45%;
+}
+
 @media screen and (max-width: 450px){
     .d-block{
         height: 200px;
+        padding-bottom: 10px;
+    }
+    .carousel-caption{
+        display:none;
+    }
+    a{
+        font-size: 12px;
+    }
+    .corso{
+        top: 60%;
+    }
+    .pasacalle{
+        top: 60%;
+    }
+    .fb{
+        display: none;
+    }
+    .it{
+        display: none;
+    }
+    .yt{
+        display: none;
     }
 }

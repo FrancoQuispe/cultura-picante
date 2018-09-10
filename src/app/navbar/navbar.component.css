@@ -1,6 +1,6 @@
 .navbar-nav
 {
-    margin-left: 40%;
+    margin-left: 38%;
 }
 .logo{
     width: 200px;
@@ -8,4 +8,17 @@
 }
 .navbar-brand{
     font-size: 18px;
+}
+.navbar-brand:hover {
+    text-decoration: none;
+    color: #D6D6D6;
+}
+.dropdown-menu{
+    text-align: center;
+}
+.dropdown-item{
+    color: white;
+}
+.dropdown-item:hover{
+    color: black;
 }
